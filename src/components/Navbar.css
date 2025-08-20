@@ -1,0 +1,102 @@
+.booking-button {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #181818;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 1px solid #444;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.1);
+    transition: background 0.3s ease;
+    margin-left: 110px;
+    height: 43.33px;
+    margin-top: 22.85px;
+    
+
+  }
+  body{
+    background-color: #0f0f0f;
+  }
+  .booking-button:hover {
+    background-color: #222;
+  }
+  
+  .key {
+    background-color: #444;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+  }
+  .brand{
+    color: #FFFFFF;
+    margin-top: 22.83px;
+    margin-left: 60px;
+    font-size: 28.33px;
+    font-weight: 700;
+    line-height: 26.88px;
+
+  }
+  .awais{
+    margin-left: 160px;
+   
+    
+  }
+  
+  .nav-item{
+    margin-top: 8px;
+  }
+  .nav-link{
+    position: relative;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 21px;
+    padding: 8px 12px;
+    transition: color 0.25s ease, transform 0.25s ease;
+  }
+  .nav-link::after{
+    content: "";
+    position: absolute;
+    left: 12px;
+    right: 12px;
+    bottom: 2px;
+    height: 2px;
+    background: linear-gradient(90deg, #ff5252, #ff8a00);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.25s ease;
+    border-radius: 2px;
+  }
+  .nav-link:hover{
+    color: #ffffff;
+    transform: translateY(-1px);
+  }
+  .nav-link:hover::after,
+  .nav-link.active::after{
+    transform: scaleX(1);
+  }
+
+  /* Sticky black blurred navbar */
+  .navbar-glass {
+    position: sticky; /* redundant with sticky-top, but safe */
+    top: 0;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background: rgba(0, 0, 0, 0.55) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    z-index: 1030; /* above content */
+  }
+
+  .navbar-dark .navbar-nav .nav-link { color: rgba(255, 255, 255, 0.85); }
+  .navbar-dark .navbar-nav .nav-link.active { color: #fff; }
+
+  /* Ensure page content not hidden under sticky bar */
+  .has-sticky-navbar {
+    padding-top: 72px; /* approx navbar height */
+  }
+  

@@ -1,0 +1,71 @@
+.feedback1{
+    height: 226px;
+    width: 384px;
+}
+.feedback2{
+    height: 308px;
+    width: 384px;
+}
+.feedback3{
+    height: 390px;
+    width: 384px;
+    margin-left: 5px;
+   
+}
+.cus{
+    margin-top: 30px;
+}
+.feedback4{
+    height: 184px;
+    width: 384px;
+    margin-left: 5px;
+    
+
+}
+.feedback5{
+    height: 123px;
+    width: 384px;
+    margin-left: 5px;
+}
+.feedback6{
+    height: 205px;
+    width: 384px;
+    margin-left: 5px;
+}
+.feedback7{
+    height: 184px;
+    width: 384px;
+    margin-left: 5px;
+}
+
+
+.feedback1:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  
+}
+.feedback2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.feedback3:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+   
+}
+.feedback4:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.feedback5:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.feedback6:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.feedback7:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
