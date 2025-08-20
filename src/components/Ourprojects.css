@@ -1,0 +1,59 @@
+.headin { 
+    margin-top: 80px;
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.proj1{
+    border-radius: 26px;
+    margin-top: 100px;
+    width: 350px;
+    height: 400px;
+}
+.proj2{
+    border-radius: 26px;
+    margin-top: 60px;
+    width: 350px;
+    height: 220px;
+}
+.proj3{
+    border-radius: 26px;
+    margin-top: 30px;
+    width: 350px;
+    height: 230px;
+}
+
+.proj4{
+    border-radius: 26px;
+    margin-top: 30px;
+    width: 350px;
+    height: 250px;
+}
+
+.proj5{
+    border-radius: 26px;
+    margin-top: 30px;
+    width: 350px;
+    height: 250px;
+}
+.proj1:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(5deg);
+}
+.proj2:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(5deg);
+}
+.proj3:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(5deg);
+}
+.proj4:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(5deg);
+}
+.proj5:hover{
+    cursor: pointer;
+    transform: scale(1.1) rotate(5deg);
+}

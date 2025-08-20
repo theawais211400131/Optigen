@@ -1,0 +1,25 @@
+.team{
+    height: 434px;
+    margin-top: 30px;
+    width:347px;
+    border-radius: 25px;
+}
+.aa{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 22.86px;
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+}
+.bb{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20.86px;
+    color: white;
+    text-align: center;
+}
+.team:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
